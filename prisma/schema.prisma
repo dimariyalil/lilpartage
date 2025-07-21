@@ -1,0 +1,111 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Partner {
+  id                String    @id @default(cuid())
+  email             String    @unique
+  firstName         String
+  lastName          String
+  phone             String
+  country           String
+  language          String
+  messenger         String
+  messengerUsername String
+  trafficSource     String
+  trafficUrl        String?
+  monthlyVolume     String?
+  username          String    @unique
+  paymentMethod     String
+  
+  // Relations
+  stats             Stat[]
+  referrals         Referral[]
+  payouts           Payout[]
+  subAccounts       SubAccount[]
+  
+  // Metadata
+  status            PartnerStatus @default(PENDING)
+  revShareRate      Float         @default(40)
+  cpaRate           Float?
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
+  
+  // Auth (managed by Supabase)
+  authId            String        @unique
+}
+
+enum PartnerStatus {
+  PENDING
+  ACTIVE
+  SUSPENDED
+}
+
+model Stat {
+  id          String   @id @default(cuid())
+  partnerId   String
+  partner     Partner  @relation(fields: [partnerId], references: [id])
+  date        DateTime
+  clicks      Int      @default(0)
+  registrations Int    @default(0)
+  deposits    Int      @default(0)
+  revenue     Float    @default(0)
+  commission  Float    @default(0)
+  createdAt   DateTime @default(now())
+  
+  @@unique([partnerId, date])
+  @@index([partnerId, date])
+}
+
+model Referral {
+  id          String   @id @default(cuid())
+  partnerId   String
+  partner     Partner  @relation(fields: [partnerId], references: [id])
+  playerId    String   @unique
+  clickId     String?
+  source      String?
+  country     String?
+  depositCount Int     @default(0)
+  totalRevenue Float   @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@index([partnerId])
+}
+
+model Payout {
+  id          String        @id @default(cuid())
+  partnerId   String
+  partner     Partner       @relation(fields: [partnerId], references: [id])
+  amount      Float
+  currency    String        @default("USD")
+  method      String
+  status      PayoutStatus  @default(PENDING)
+  processedAt DateTime?
+  createdAt   DateTime      @default(now())
+  
+  @@index([partnerId])
+}
+
+enum PayoutStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}
+
+model SubAccount {
+  id          String   @id @default(cuid())
+  partnerId   String
+  partner     Partner  @relation(fields: [partnerId], references: [id])
+  name        String
+  trackingId  String   @unique
+  createdAt   DateTime @default(now())
+  
+  @@index([partnerId])
+}
