@@ -1,0 +1,36 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "submit": "Enviar"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "dashboard": "Panel",
+    "tools": "Herramientas",
+    "finance": "Finanzas",
+    "stats": "Estadísticas",
+    "settings": "Configuración"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "register": "Registro",
+    "email": "Email",
+    "password": "Contraseña"
+  },
+  "header": {
+    "brandName": "LILBET PARTNERS",
+    "tools": "Herramientas",
+    "language": "Idioma",
+    "signUp": "Registro",
+    "signIn": "Iniciar Sesión"
+  },
+  "hero": {
+    "title": "Asociación que entrega resultados",
+    "subtitle": "Enfocados en hacer que cada clic funcione para ti",
+    "cta": "Únete Ahora"
+  }
+}

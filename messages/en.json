@@ -1,0 +1,180 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset",
+    "submit": "Submit",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "open": "Open",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "copy": "Copy",
+    "copied": "Copied"
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "tools": "Tools",
+    "finance": "Finance",
+    "stats": "Statistics",
+    "settings": "Settings",
+    "faq": "FAQ",
+    "contacts": "Contacts",
+    "logout": "Logout",
+    "profile": "Profile"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "loginSuccess": "You have successfully logged in",
+    "loginError": "Login error",
+    "registerSuccess": "Registration successful",
+    "registerError": "Registration error",
+    "invalidCredentials": "Invalid credentials",
+    "passwordTooShort": "Password must be at least 8 characters",
+    "passwordsNotMatch": "Passwords don't match",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required"
+  },
+  "header": {
+    "brandName": "LILBET PARTNERS",
+    "tools": "Tools",
+    "language": "Language",
+    "signUp": "Sign Up",
+    "signIn": "Sign In"
+  },
+  "hero": {
+    "title": "Partnership that delivers results",
+    "subtitle": "Focused on making every click work for you",
+    "cta": "Join Now",
+    "features": {
+      "highCommissions": "High Commissions",
+      "fastPayouts": "Fast Payouts",
+      "professionalSupport": "Professional Support",
+      "detailedStatistics": "Detailed Statistics"
+    }
+  },
+  "registration": {
+    "title": "Partner Registration",
+    "subtitle": "Fill out the form to create a partner account",
+    "personalInfo": "Personal Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone",
+    "country": "Country",
+    "contactInfo": "Contact Information",
+    "messenger": "Messenger",
+    "messengerNick": "Messenger Nickname",
+    "trafficInfo": "Traffic Information",
+    "trafficSource": "Traffic Source",
+    "resourceLink": "Resource Link",
+    "trafficVolume": "Traffic Volume",
+    "accountInfo": "Account Information",
+    "login": "Login",
+    "withdrawalInfo": "Withdrawal Method",
+    "withdrawalMethod": "Withdrawal Method",
+    "agreements": "Agreements",
+    "agreeToTerms": "I agree to the terms of use",
+    "agreeToPrivacy": "I agree to the privacy policy",
+    "agreeToNewsletter": "I agree to receive news and offers",
+    "createAccount": "Create Account",
+    "requiredFields": "Required fields are marked with *"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome",
+    "overview": "Overview",
+    "quickActions": "Quick Actions",
+    "getLink": "Get Link",
+    "requestPayout": "Request Payout",
+    "stats": {
+      "clicks": "Clicks",
+      "registrations": "Registrations",
+      "revenue": "Revenue",
+      "balance": "Balance",
+      "total": "Total",
+      "today": "Today",
+      "thisWeek": "This Week",
+      "thisMonth": "This Month",
+      "change": "Change",
+      "increase": "Increase",
+      "decrease": "Decrease"
+    },
+    "charts": {
+      "revenueChart": "Revenue Chart",
+      "last30Days": "Last 30 Days",
+      "revenue": "Revenue",
+      "clicks": "Clicks",
+      "registrations": "Registrations"
+    },
+    "recentPlayers": {
+      "title": "Recent Players",
+      "email": "Email",
+      "country": "Country",
+      "registered": "Registered",
+      "firstDeposit": "First Deposit",
+      "totalDeposits": "Total Deposits",
+      "status": "Status",
+      "viewAll": "View All"
+    }
+  },
+  "tools": {
+    "title": "Marketing Tools",
+    "creatives": "Creatives",
+    "links": "Links",
+    "banners": "Banners",
+    "landingPages": "Landing Pages",
+    "emailTemplates": "Email Templates",
+    "subAccounts": "Sub Accounts",
+    "tracking": "Tracking"
+  },
+  "finance": {
+    "title": "Finance",
+    "balance": "Balance",
+    "payouts": "Payouts",
+    "commissions": "Commissions",
+    "transactions": "Transactions"
+  },
+  "stats": {
+    "title": "Statistics",
+    "overview": "Overview",
+    "detailed": "Detailed",
+    "conversion": "Conversion",
+    "geography": "Geography"
+  },
+  "footer": {
+    "copyright": "© 2024 LILBET PARTNERS. All rights reserved.",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "support": "Support"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email format",
+    "invalidPhone": "Invalid phone format",
+    "minLength": "Minimum length: {min} characters",
+    "maxLength": "Maximum length: {max} characters",
+    "unexpected": "An unexpected error occurred",
+    "networkError": "Network error. Please check your internet connection",
+    "serverError": "Server error. Please try again later"
+  }
+}

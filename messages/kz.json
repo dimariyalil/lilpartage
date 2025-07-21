@@ -1,0 +1,36 @@
+{
+  "common": {
+    "loading": "Жүктелуде...",
+    "error": "Қате",
+    "success": "Сәтті",
+    "cancel": "Болдырмау",
+    "save": "Сақтау",
+    "submit": "Жіберу"
+  },
+  "navigation": {
+    "home": "Басты бет",
+    "dashboard": "Басқару панелі",
+    "tools": "Құралдар",
+    "finance": "Қаржы",
+    "stats": "Статистика",
+    "settings": "Параметрлер"
+  },
+  "auth": {
+    "login": "Кіру",
+    "register": "Тіркелу",
+    "email": "Email",
+    "password": "Құпия сөз"
+  },
+  "header": {
+    "brandName": "LILBET PARTNERS",
+    "tools": "Құралдар",
+    "language": "Тіл",
+    "signUp": "Тіркелу",
+    "signIn": "Кіру"
+  },
+  "hero": {
+    "title": "Нәтиже беретін серіктестік",
+    "subtitle": "Әр басуды сіз үшін жұмыс істетуге бағытталған",
+    "cta": "Қосылу"
+  }
+}

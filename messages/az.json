@@ -1,0 +1,36 @@
+{
+  "common": {
+    "loading": "Yüklənir...",
+    "error": "Xəta",
+    "success": "Uğur",
+    "cancel": "Ləğv et",
+    "save": "Saxla",
+    "submit": "Göndər"
+  },
+  "navigation": {
+    "home": "Əsas səhifə",
+    "dashboard": "İdarəetmə paneli",
+    "tools": "Alətlər",
+    "finance": "Maliyyə",
+    "stats": "Statistika",
+    "settings": "Tənzimləmələr"
+  },
+  "auth": {
+    "login": "Giriş",
+    "register": "Qeydiyyat",
+    "email": "Email",
+    "password": "Şifrə"
+  },
+  "header": {
+    "brandName": "LILBET PARTNERS",
+    "tools": "Alətlər",
+    "language": "Dil",
+    "signUp": "Qeydiyyat",
+    "signIn": "Giriş"
+  },
+  "hero": {
+    "title": "Nəticə verən tərəfdaşlıq",
+    "subtitle": "Hər klikin sizin üçün işləməsinə diqqət yetiririk",
+    "cta": "Qoşul"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xato",
+    "success": "Muvaffaqiyat",
+    "cancel": "Bekor qilish",
+    "save": "Saqlash",
+    "submit": "Yuborish"
+  },
+  "navigation": {
+    "home": "Bosh sahifa",
+    "dashboard": "Boshqaruv paneli",
+    "tools": "Vositalar",
+    "finance": "Moliya",
+    "stats": "Statistika",
+    "settings": "Sozlamalar"
+  },
+  "auth": {
+    "login": "Kirish",
+    "register": "Ro'yxatdan o'tish",
+    "email": "Email",
+    "password": "Parol"
+  },
+  "header": {
+    "brandName": "LILBET PARTNERS",
+    "tools": "Vositalar",
+    "language": "Til",
+    "signUp": "Ro'yxatdan o'tish",
+    "signIn": "Kirish"
+  },
+  "hero": {
+    "title": "Natija beradigan hamkorlik",
+    "subtitle": "Har bir bosishni siz uchun ishlashga qaratilgan",
+    "cta": "Qo'shilish"
+  }
+}

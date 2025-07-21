@@ -1,0 +1,129 @@
+# LILBET PARTNERS - Правила для AI
+
+## Проект
+Это партнерская программа для беттинг/казино платформы LILBET с полным функционалом.
+
+## Технологии
+- Next.js 14.2.0 с App Router
+- TypeScript (строгий режим)  
+- Tailwind CSS + shadcn/ui
+- Prisma + PostgreSQL (Supabase)
+- tRPC для API
+- Framer Motion для анимаций
+- next-intl для мультиязычности
+- React Hook Form + Zod
+
+## Дизайн система
+Цвета:
+- Основной: #082b53 (темно-синий)
+- Вторичный: #34cc67 (зеленый) 
+- Акцент: #ff00ff (розовый)
+- Градиенты: #2a4974 (синий), #3eed77 (зеленый)
+
+Шрифты:
+- Заголовки: Tektur ExtraBold
+- Основной текст: Nairi Normal
+
+## Стандарты кодирования
+
+### TypeScript
+- Используйте строгую типизацию
+- Все компоненты должны быть типизированы
+- Экспортируйте типы из @/types/index.ts
+- Используйте интерфейсы для props
+
+### React компоненты
+- Используйте Server Components по умолчанию
+- Client Components только когда необходимо ('use client')
+- Следуйте паттерну: импорты -> типы -> компонент -> экспорт
+- Используйте именованные экспорты
+
+### Стили
+- Используйте Tailwind CSS классы
+- Применяйте кастомные классы из globals.css
+- Hover эффекты с opacity: 0.8
+- Плавные переходы: transition-all duration-300
+
+### Структура файлов
+- Компоненты в /components с подпапками по типу
+- Страницы в /app/[locale] с группировкой
+- Утилиты в /lib с подпапками
+- Типы в /types/index.ts
+
+### API и данные
+- Используйте tRPC для типобезопасных API calls
+- Prisma для работы с БД
+- Валидация через Zod схемы
+- Обработка ошибок везде
+
+### Мультиязычность
+- Все тексты через useTranslations('namespace')
+- Переводы в /messages/[locale].json
+- Поддержка 7 языков: ru, en, es, pt, kz, uz, az
+- Русский язык по умолчанию
+
+## Примеры кода
+
+### Компонент
+```tsx
+'use client' // только если нужно
+
+import { useTranslations } from 'next-intl'
+import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils/cn'
+
+interface ComponentProps {
+  className?: string
+  // другие props
+}
+
+export function Component({ className, ...props }: ComponentProps) {
+  const t = useTranslations('namespace')
+  
+  return (
+    <div className={cn('default-classes', className)}>
+      {/* содержимое */}
+    </div>
+  )
+}
+```
+
+### API Route (tRPC)
+```ts
+export const exampleRouter = createTRPCRouter({
+  getData: protectedProcedure
+    .input(schema)
+    .query(async ({ input, ctx }) => {
+      // логика
+    }),
+})
+```
+
+## Обязательные требования
+
+1. Всегда используйте TypeScript типы
+2. Все тексты через переводы (t('key'))
+3. Мобильная адаптивность (mobile-first)
+4. Обработка loading и error состояний
+5. SEO оптимизация с метаданными
+6. Следование дизайн системе (цвета, шрифты)
+7. Плавные анимации и переходы
+8. Безопасность и валидация данных
+
+## Запрещено
+
+- Хардкод текстов (только через переводы)
+- Использование других цветов кроме дизайн системы
+- Inline стили (только Tailwind)
+- Client Components без необходимости
+- Игнорирование TypeScript ошибок
+- Отсутствие обработки ошибок
+
+## Приоритеты
+
+1. Типобезопасность
+2. Производительность
+3. Пользовательский опыт
+4. Мобильная адаптивность
+5. Доступность
+6. SEO

@@ -1,0 +1,180 @@
+{
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "success": "Успешно",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "search": "Поиск",
+    "filter": "Фильтр",
+    "reset": "Сбросить",
+    "submit": "Отправить",
+    "continue": "Продолжить",
+    "back": "Назад",
+    "next": "Далее",
+    "previous": "Предыдущий",
+    "close": "Закрыть",
+    "open": "Открыть",
+    "view": "Просмотр",
+    "download": "Скачать",
+    "upload": "Загрузить",
+    "copy": "Копировать",
+    "copied": "Скопировано"
+  },
+  "navigation": {
+    "home": "Главная",
+    "dashboard": "Панель управления",
+    "tools": "Инструменты",
+    "finance": "Финансы",
+    "stats": "Статистика",
+    "settings": "Настройки",
+    "faq": "FAQ",
+    "contacts": "Контакты",
+    "logout": "Выйти",
+    "profile": "Профиль"
+  },
+  "auth": {
+    "login": "Войти",
+    "register": "Регистрация",
+    "email": "Email",
+    "password": "Пароль",
+    "confirmPassword": "Подтвердите пароль",
+    "rememberMe": "Запомнить меня",
+    "forgotPassword": "Забыли пароль?",
+    "noAccount": "Нет аккаунта?",
+    "hasAccount": "Уже есть аккаунт?",
+    "loginSuccess": "Вы успешно вошли в систему",
+    "loginError": "Ошибка входа в систему",
+    "registerSuccess": "Регистрация прошла успешно",
+    "registerError": "Ошибка регистрации",
+    "invalidCredentials": "Неверные учетные данные",
+    "passwordTooShort": "Пароль должен содержать минимум 8 символов",
+    "passwordsNotMatch": "Пароли не совпадают",
+    "emailRequired": "Email обязателен",
+    "passwordRequired": "Пароль обязателен"
+  },
+  "header": {
+    "brandName": "LILBET PARTNERS",
+    "tools": "Инструменты",
+    "language": "Язык",
+    "signUp": "Регистрация",
+    "signIn": "Войти"
+  },
+  "hero": {
+    "title": "Партнёрство, которое приносит результат",
+    "subtitle": "Сфокусированы на том, чтобы каждый клик работал на вас",
+    "cta": "Присоединиться",
+    "features": {
+      "highCommissions": "Высокие комиссии",
+      "fastPayouts": "Быстрые выплаты",
+      "professionalSupport": "Профессиональная поддержка",
+      "detailedStatistics": "Детальная статистика"
+    }
+  },
+  "registration": {
+    "title": "Регистрация партнера",
+    "subtitle": "Заполните форму для создания партнерского аккаунта",
+    "personalInfo": "Личная информация",
+    "firstName": "Имя",
+    "lastName": "Фамилия",
+    "phone": "Телефон",
+    "country": "Страна",
+    "contactInfo": "Контактная информация",
+    "messenger": "Мессенджер",
+    "messengerNick": "Ник в мессенджере",
+    "trafficInfo": "Информация о трафике",
+    "trafficSource": "Источник трафика",
+    "resourceLink": "Ссылка на ресурс",
+    "trafficVolume": "Объем трафика",
+    "accountInfo": "Данные аккаунта",
+    "login": "Логин",
+    "withdrawalInfo": "Способ вывода средств",
+    "withdrawalMethod": "Способ вывода",
+    "agreements": "Согласия",
+    "agreeToTerms": "Я согласен с условиями использования",
+    "agreeToPrivacy": "Я согласен с политикой конфиденциальности",
+    "agreeToNewsletter": "Я согласен получать новости и предложения",
+    "createAccount": "Создать аккаунт",
+    "requiredFields": "Обязательные поля отмечены *"
+  },
+  "dashboard": {
+    "title": "Панель управления",
+    "welcome": "Добро пожаловать",
+    "overview": "Обзор",
+    "quickActions": "Быстрые действия",
+    "getLink": "Получить ссылку",
+    "requestPayout": "Заказать выплату",
+    "stats": {
+      "clicks": "Клики",
+      "registrations": "Регистрации", 
+      "revenue": "Доход",
+      "balance": "Баланс",
+      "total": "Всего",
+      "today": "Сегодня",
+      "thisWeek": "На этой неделе",
+      "thisMonth": "В этом месяце",
+      "change": "Изменение",
+      "increase": "Увеличение",
+      "decrease": "Уменьшение"
+    },
+    "charts": {
+      "revenueChart": "График дохода",
+      "last30Days": "Последние 30 дней",
+      "revenue": "Доход",
+      "clicks": "Клики",
+      "registrations": "Регистрации"
+    },
+    "recentPlayers": {
+      "title": "Последние игроки",
+      "email": "Email",
+      "country": "Страна",
+      "registered": "Зарегистрирован",
+      "firstDeposit": "Первый депозит",
+      "totalDeposits": "Общий депозит",
+      "status": "Статус",
+      "viewAll": "Посмотреть всех"
+    }
+  },
+  "tools": {
+    "title": "Маркетинговые инструменты",
+    "creatives": "Креативы",
+    "links": "Ссылки",
+    "banners": "Баннеры",
+    "landingPages": "Лендинги",
+    "emailTemplates": "Email шаблоны",
+    "subAccounts": "Суб-аккаунты",
+    "tracking": "Отслеживание"
+  },
+  "finance": {
+    "title": "Финансы",
+    "balance": "Баланс",
+    "payouts": "Выплаты",
+    "commissions": "Комиссии",
+    "transactions": "Транзакции"
+  },
+  "stats": {
+    "title": "Статистика",
+    "overview": "Обзор",
+    "detailed": "Детальная",
+    "conversion": "Конверсия",
+    "geography": "География"
+  },
+  "footer": {
+    "copyright": "© 2024 LILBET PARTNERS. Все права защищены.",
+    "terms": "Условия использования",
+    "privacy": "Политика конфиденциальности",
+    "support": "Поддержка"
+  },
+  "errors": {
+    "required": "Это поле обязательно",
+    "invalidEmail": "Неверный формат email",
+    "invalidPhone": "Неверный формат телефона",
+    "minLength": "Минимальная длина: {min} символов",
+    "maxLength": "Максимальная длина: {max} символов",
+    "unexpected": "Произошла неожиданная ошибка",
+    "networkError": "Ошибка сети. Проверьте подключение к интернету",
+    "serverError": "Ошибка сервера. Попробуйте позже"
+  }
+}
