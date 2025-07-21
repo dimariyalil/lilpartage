@@ -44,7 +44,7 @@ const features = [
 ]
 
 export function Features() {
-  const t = useTranslations('features')
+  // const t = useTranslations('features') // Removed for demo mode
 
   return (
     <section className="py-20 bg-gray-50">

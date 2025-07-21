@@ -1,5 +1,6 @@
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
+import { DemoBanner } from '@/components/demo/demo-banner'
 
 export default function MarketingLayout({
   children,
@@ -8,6 +9,7 @@ export default function MarketingLayout({
 }) {
   return (
     <div className="min-h-screen bg-white">
+      <DemoBanner />
       <Header />
       <main className="flex-1">
         {children}

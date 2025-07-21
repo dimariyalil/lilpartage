@@ -45,7 +45,7 @@ const footerLinks = {
 }
 
 export function Footer() {
-  const t = useTranslations('footer')
+  // const t = useTranslations('footer') // Removed for demo mode
 
   return (
     <footer className="bg-lilbet-primary text-white">
