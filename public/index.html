@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LILBET Partners - Партнерская Программа</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #082b53 0%, #2a4974 50%, #3eed77 100%);
+            min-height: 100vh;
+            color: white;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 4rem 0;
+        }
+        
+        .logo {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, #34cc67, #ff00ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 2rem;
+            margin: 2rem 0;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .feature {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1.5rem;
+            border-radius: 15px;
+            border-left: 4px solid #34cc67;
+        }
+        
+        .feature h3 {
+            color: #34cc67;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .tech-item {
+            background: rgba(255, 0, 255, 0.1);
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid rgba(255, 0, 255, 0.3);
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #ff00ff;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 0.5rem;
+        }
+        
+        .btn:hover {
+            background: #e600e6;
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #34cc67;
+            color: #34cc67;
+        }
+        
+        .btn-secondary:hover {
+            background: #34cc67;
+            color: white;
+        }
+        
+        .status {
+            background: linear-gradient(45deg, #28a745, #34cc67);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 1rem 0;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 2rem 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 2rem;
+            }
+            
+            .subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .features,
+            .tech-stack {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .animate {
+            animation: fadeInUp 1s ease-out;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header animate">
+            <div class="logo">LILBET Partners</div>
+            <div class="subtitle">Профессиональная партнерская программа</div>
+            <div class="status">✅ Готов к продакшену</div>
+        </div>
+
+        <div class="card animate">
+            <h2>🚀 Проект успешно обновлен!</h2>
+            <p>Создана полноценная партнерская программа для LILBET с современным технологическим стеком и профессиональным дизайном.</p>
+        </div>
+
+        <div class="card animate">
+            <h2>🎯 Ключевые особенности</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>RevShare до 40%</h3>
+                    <p>Пожизненная комиссия с каждого игрока</p>
+                </div>
+                <div class="feature">
+                    <h3>Real-time статистика</h3>
+                    <p>Отслеживание результатов в режиме реального времени</p>
+                </div>
+                <div class="feature">
+                    <h3>Мультиязычность</h3>
+                    <p>Поддержка русского и казахского языков</p>
+                </div>
+                <div class="feature">
+                    <h3>S2S Postback API</h3>
+                    <p>Автоматическая обработка событий игроков</p>
+                </div>
+                <div class="feature">
+                    <h3>Telegram уведомления</h3>
+                    <p>Мгновенные уведомления о новых партнерах</p>
+                </div>
+                <div class="feature">
+                    <h3>Современный UI/UX</h3>
+                    <p>Адаптивный дизайн с анимациями</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card animate">
+            <h2>🛠 Технологический стек</h2>
+            <div class="tech-stack">
+                <div class="tech-item">Next.js 14.2</div>
+                <div class="tech-item">TypeScript</div>
+                <div class="tech-item">Tailwind CSS 3.4</div>
+                <div class="tech-item">Prisma ORM</div>
+                <div class="tech-item">PostgreSQL</div>
+                <div class="tech-item">Supabase Auth</div>
+                <div class="tech-item">Framer Motion</div>
+                <div class="tech-item">Telegram Bot API</div>
+            </div>
+        </div>
+
+        <div class="card animate">
+            <h2>📋 Что реализовано</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li>✅ Главная страница с Hero секцией и анимациями</li>
+                <li>✅ Компоненты: Products, Benefits, Tools, FAQ</li>
+                <li>✅ API для регистрации партнеров</li>
+                <li>✅ S2S Postback для отслеживания событий</li>
+                <li>✅ База данных с полной схемой</li>
+                <li>✅ Мультиязычность (RU/KZ)</li>
+                <li>✅ Адаптивный дизайн</li>
+                <li>✅ Telegram интеграция</li>
+                <li>✅ GitHub Actions для CI/CD</li>
+                <li>✅ Полная документация</li>
+            </ul>
+        </div>
+
+        <div class="card animate">
+            <h2>🚀 Развертывание</h2>
+            <p>Проект готов к развертыванию на Vercel или любой другой платформе, поддерживающей Next.js. Все необходимые конфигурационные файлы созданы.</p>
+            
+            <div style="margin-top: 2rem;">
+                <a href="https://github.com/dimariyalil/lilpartage" class="btn" target="_blank">
+                    📱 Посмотреть код на GitHub
+                </a>
+                <a href="mailto:partners@lilbet.com" class="btn btn-secondary">
+                    ✉️ Связаться с нами
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 LILBET Partners. Все права защищены.</p>
+            <p>Профессиональная партнерская программа для онлайн-гемблинга</p>
+        </div>
+    </div>
+
+    <script>
+        // Простая анимация при скролле
+        window.addEventListener('scroll', () => {
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => {
+                const rect = card.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    card.style.transform = 'translateY(0)';
+                    card.style.opacity = '1';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
