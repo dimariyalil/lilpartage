@@ -1,4 +1,6 @@
 import { Hero } from '@/components/marketing/hero'
+import { Features } from '@/components/marketing/features'
+import { Stats } from '@/components/marketing/stats'
 import { Metadata } from 'next'
 import { setRequestLocale } from 'next-intl/server'
 
@@ -17,7 +19,8 @@ export default function HomePage({ params: { locale } }: Props) {
   return (
     <div>
       <Hero />
-      {/* Здесь будут добавлены другие секции */}
+      <Features />
+      <Stats />
     </div>
   )
 }
